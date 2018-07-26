@@ -1,0 +1,14 @@
+{
+    "name": "Reminder-Mailing",
+    "description": "This is a short project to remind my boyfriend via command line and sending e-mails.",
+    "autoload": {
+        "psr-4": {
+            "ReminderMailing\\": [
+                "src/"
+            ]
+        }
+    },
+    "require": {
+        "phpmailer/phpmailer": "~6.0"
+    }
+}
